@@ -1,0 +1,6 @@
+{
+  "name": "AI Resume Checker & ATS Optimizer",
+  "description": "Intelligent ATS resume analyzer and real-time optimizer powered by Gemini. Analyzes resumes against job descriptions, identifies keywords and formatting gaps, provides tailored bullet rewrites, and tracks version improvements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

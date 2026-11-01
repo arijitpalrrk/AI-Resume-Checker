@@ -1,0 +1,303 @@
+[
+  {
+    "id": "sample-fullstack-dev",
+    "filename": "Alex_Morgan_Senior_Software_Engineer.pdf",
+    "targetRole": "Senior Full Stack Engineer",
+    "targetJobDescription": "Seeking a Senior Full Stack Engineer experienced with TypeScript, React, scalable cloud infrastructure, and CI/CD pipelines.",
+    "versions": [
+      {
+        "versionNumber": 1,
+        "text": "ALEX MORGAN\nSan Francisco, CA | alex.morgan@email.com | (555) 345-6789 | linkedin.com/in/alexmorgan | github.com/alexm\n\nPROFESSIONAL SUMMARY\nExperienced Software Engineer with 5+ years of building web applications. Skilled in React, Node.js, and cloud systems. Passionate about solving complex problems and collaborating with team members.\n\nTECHNICAL SKILLS\nLanguages: JavaScript, TypeScript, Python, HTML5, CSS3, SQL\nFrameworks & Libraries: React, Node.js, Express, Next.js, Redux, Tailwind CSS\nTools & Cloud: AWS (S3, EC2), Docker, Git, PostgreSQL, MongoDB, Jest\n\nPROFESSIONAL EXPERIENCE\nSenior Full Stack Developer | NexaTech Solutions | 2022 - Present\n• Responsible for developing web applications and fixing bugs in production.\n• Worked with cross-functional teams to release software features on schedule.\n• Helped improve database queries and system speed.\n• Managed daily deployments and monitored cloud servers on AWS.\n• Mentored junior developers on best coding standards and code reviews.\n\nSoftware Engineer | PulseWave Technologies | 2020 - 2022\n• Built reusable frontend components using React and styled-components.\n• Assisted in migrating legacy monolithic backend to modern microservices.\n• Integrated third-party payment APIs including Stripe and PayPal.\n• Participated in daily Agile sprint meetings and feature planning sessions.\n\nEDUCATION\nBachelor of Science in Computer Science | University of California, Davis | 2016 - 2020",
+        "source": "upload",
+        "targetRole": "Senior Full Stack Engineer",
+        "analysis": {
+          "atsScore": 68,
+          "grade": "Fair Match",
+          "summary": "Solid foundational background and clear tech stack, but the experience section suffers from passive language ('Responsible for', 'Helped improve') and completely lacks measurable business impact metrics.",
+          "breakdown": {
+            "keywords": 78,
+            "formatting": 82,
+            "impact": 48,
+            "clarity": 72,
+            "actionVerbs": 60
+          },
+          "issues": [
+            {
+              "id": "iss-1",
+              "title": "Zero Quantifiable Metrics in Senior Role",
+              "severity": "high",
+              "category": "quantifiable_impact",
+              "fix": "Incorporate numbers (latency % reduced, user counts, uptime %, revenue impact) into your NexaTech bullet points."
+            },
+            {
+              "id": "iss-2",
+              "title": "Weak Opening Action Verbs",
+              "severity": "high",
+              "category": "formatting",
+              "fix": "Replace 'Responsible for developing' and 'Assisted in migrating' with authoritative verbs like 'Architected', 'Spearheaded', and 'Engineered'."
+            },
+            {
+              "id": "iss-3",
+              "title": "Missing Modern DevOps & Cloud ATS Keywords",
+              "severity": "medium",
+              "category": "keywords",
+              "fix": "Target companies looking for Kubernetes, CI/CD pipelines (GitHub Actions), Redis caching, and Microservices observability."
+            },
+            {
+              "id": "iss-4",
+              "title": "Vague Professional Summary",
+              "severity": "low",
+              "category": "tone",
+              "fix": "Transform the summary to highlight specific domains (FinTech, SaaS) and proven engineering scale."
+            }
+          ],
+          "strengths": [
+            "Well-formatted single-column layout easily parsed by Workday and Greenhouse",
+            "Explicit technical skills block with clear categorization",
+            "Consistent reverse-chronological work experience",
+            "Strong educational background in Computer Science"
+          ],
+          "rewrites": [
+            {
+              "id": "rw-1",
+              "original": "Responsible for developing web applications and fixing bugs in production.",
+              "improved": "Architected and shipped 4 high-concurrency React & TypeScript web applications, boosting user engagement by 32% across 85,000 monthly active users.",
+              "reason": "Replaces passive task description with concrete metrics (32% engagement, 85k users) and modern tech attribution.",
+              "category": "Architecture & Scale",
+              "impactMetricAdded": true
+            },
+            {
+              "id": "rw-2",
+              "original": "Worked with cross-functional teams to release software features on schedule.",
+              "improved": "Spearheaded bi-weekly agile release cadences across 8 engineers and UX designers, achieving a 99.4% on-time sprint completion rate.",
+              "reason": "Adds team scope and quantifiable delivery reliability percentage.",
+              "category": "Leadership",
+              "impactMetricAdded": true
+            },
+            {
+              "id": "rw-3",
+              "original": "Helped improve database queries and system speed.",
+              "improved": "Optimized PostgreSQL indexes and implemented Redis caching, slashing P95 API response times by 64% from 420ms to 150ms.",
+              "reason": "Transforms vague 'helped improve' into definitive database optimization engineering wins.",
+              "category": "Performance",
+              "impactMetricAdded": true
+            },
+            {
+              "id": "rw-4",
+              "original": "Managed daily deployments and monitored cloud servers on AWS.",
+              "improved": "Automated multi-stage CI/CD deployments via GitHub Actions and AWS ECS, trimming release cycle durations by 45 minutes.",
+              "reason": "Specifies tooling and exact time savings achieved through automation.",
+              "category": "DevOps",
+              "impactMetricAdded": true
+            },
+            {
+              "id": "rw-5",
+              "original": "Assisted in migrating legacy monolithic backend to modern microservices.",
+              "improved": "Engineered 3 core decoupled Go/Node.js microservices during monolith decommissioning, reducing single-point-of-failure incidents to zero.",
+              "reason": "Quantifies engineering contribution and system reliability impact.",
+              "category": "System Design",
+              "impactMetricAdded": true
+            }
+          ],
+          "keywords": {
+            "present": [
+              "React",
+              "TypeScript",
+              "Node.js",
+              "Express",
+              "AWS",
+              "Docker",
+              "SQL",
+              "Git",
+              "PostgreSQL",
+              "MongoDB"
+            ],
+            "missing": [
+              "CI/CD Pipelines",
+              "Kubernetes",
+              "Redis",
+              "System Architecture",
+              "Performance Optimization",
+              "GraphQL",
+              "Test-Driven Development (TDD)"
+            ]
+          },
+          "metrics": {
+            "wordCount": 280,
+            "bulletPointsCount": 9,
+            "actionVerbScore": 60,
+            "readabilityGrade": "Grade 10 - Clear & Parsable"
+          },
+          "targetRoleMatch": {
+            "roleTitle": "Senior Full Stack Engineer",
+            "matchScore": 72,
+            "keyMissingRequirements": [
+              "CI/CD pipelines",
+              "Kubernetes",
+              "System scalability metrics"
+            ],
+            "recommendations": [
+              "Include production volume metrics (requests/sec, database scale)",
+              "Highlight test automation coverage and code review leadership"
+            ]
+          }
+        },
+        "createdAt": "2026-10-30T13:01:40.282Z"
+      },
+      {
+        "versionNumber": 2,
+        "text": "ALEX MORGAN\nSan Francisco, CA | alex.morgan@email.com | (555) 345-6789 | linkedin.com/in/alexmorgan | github.com/alexm\n\nPROFESSIONAL SUMMARY\nExperienced Software Engineer with 5+ years of building web applications. Skilled in React, Node.js, and cloud systems. Passionate about solving complex problems and collaborating with team members.\n\nTECHNICAL SKILLS\nLanguages: JavaScript, TypeScript, Python, HTML5, CSS3, SQL\nFrameworks & Libraries: React, Node.js, Express, Next.js, Redux, Tailwind CSS\nTools & Cloud: AWS (S3, EC2), Docker, Git, PostgreSQL, MongoDB, Jest\n\nPROFESSIONAL EXPERIENCE\nSenior Full Stack Developer | NexaTech Solutions | 2022 - Present\n• Architected and shipped 4 high-concurrency React & TypeScript web applications, boosting user engagement by 32% across 85,000 monthly active users.\n• Spearheaded bi-weekly agile release cadences across 8 engineers and UX designers, achieving a 99.4% on-time sprint completion rate.\n• Helped improve database queries and system speed.\n• Managed daily deployments and monitored cloud servers on AWS.\n• Mentored junior developers on best coding standards and code reviews.\n\nSoftware Engineer | PulseWave Technologies | 2020 - 2022\n• Built reusable frontend components using React and styled-components.\n• Assisted in migrating legacy monolithic backend to modern microservices.\n• Integrated third-party payment APIs including Stripe and PayPal.\n• Participated in daily Agile sprint meetings and feature planning sessions.\n\nEDUCATION\nBachelor of Science in Computer Science | University of California, Davis | 2016 - 2020",
+        "source": "rewrite",
+        "targetRole": "Senior Full Stack Engineer",
+        "targetJobDescription": "Seeking a Senior Full Stack Engineer experienced with TypeScript, React, scalable cloud infrastructure, and CI/CD pipelines.",
+        "analysis": {
+          "atsScore": 72,
+          "grade": "Fair Match",
+          "summary": "Alex demonstrates a solid foundation in core full-stack competencies including React, TypeScript, and AWS, with strong initial metrics in their current role. However, several bullet points rely on passive phrasing and unquantified contributions, while key target requirements like CI/CD pipelines and automated infrastructure are underrepresented.",
+          "breakdown": {
+            "keywords": 70,
+            "formatting": 88,
+            "impact": 62,
+            "clarity": 74,
+            "actionVerbs": 66
+          },
+          "issues": [
+            {
+              "id": "iss-1",
+              "title": "Vague Database and Performance Bullet",
+              "severity": "high",
+              "category": "quantifiable_impact",
+              "fix": "Replace 'Helped improve database queries and system speed' with concrete metrics detailing latency reduction, query optimization tools used, and backend performance gains."
+            },
+            {
+              "id": "iss-2",
+              "title": "Missing CI/CD and Automation Tooling",
+              "severity": "high",
+              "category": "keywords",
+              "fix": "Explicitly highlight CI/CD platforms (e.g., GitHub Actions, GitLab CI, Jenkins) and automated deployment pipelines required by the target job description."
+            },
+            {
+              "id": "iss-3",
+              "title": "Passive Phrasing in Experience Section",
+              "severity": "medium",
+              "category": "tone",
+              "fix": "Eliminate weak lead-ins such as 'Helped', 'Assisted in', and 'Participated in' in favor of strong technical verbs like 'Engineered', 'Decoupled', and 'Executed'."
+            },
+            {
+              "id": "iss-4",
+              "title": "Generic Professional Summary",
+              "severity": "medium",
+              "category": "structure",
+              "fix": "Tailor the summary to the Senior Full Stack Engineer role, highlighting measurable career wins and specific expertise in scalable cloud architecture."
+            },
+            {
+              "id": "iss-5",
+              "title": "Lack of Architectural Detail in Cloud Deployments",
+              "severity": "low",
+              "category": "keywords",
+              "fix": "Detail the specific AWS services and infrastructure-as-code or monitoring tools utilized, such as ECS, CloudWatch, Terraform, or Kubernetes."
+            }
+          ],
+          "strengths": [
+            "Clean, parseable single-column layout compliant with standard ATS scanners.",
+            "Strong initial bullet points with clear business metrics and user scale at NexaTech Solutions.",
+            "Direct alignment with primary core technologies: TypeScript, React, Node.js, and AWS.",
+            "Clear educational credential from an accredited computer science program.",
+            "Inclusion of both GitHub and LinkedIn links for technical credibility verification."
+          ],
+          "rewrites": [
+            {
+              "id": "rw-1",
+              "original": "Helped improve database queries and system speed.",
+              "improved": "Optimized PostgreSQL indexes and rewritten complex queries, decreasing p95 API response times by 42% across high-traffic endpoints.",
+              "reason": "Replaces passive phrasing with technical specifics (PostgreSQL, indexing) and quantifiable performance gains.",
+              "category": "Technical Performance",
+              "impactMetricAdded": true
+            },
+            {
+              "id": "rw-2",
+              "original": "Managed daily deployments and monitored cloud servers on AWS.",
+              "improved": "Automated deployment workflows via AWS CI/CD pipelines, slashing release lead times by 60% while maintaining 99.9% application uptime.",
+              "reason": "Directly targets the missing CI/CD requirement while adding quantifiable uptime and efficiency gains.",
+              "category": "Efficiency",
+              "impactMetricAdded": true
+            },
+            {
+              "id": "rw-3",
+              "original": "Mentored junior developers on best coding standards and code reviews.",
+              "improved": "Mentored 4 junior engineers on TypeScript best practices and test-driven development, decreasing post-release bug rates by 25%.",
+              "reason": "Quantifies senior-level mentorship and links code reviews directly to code quality metrics.",
+              "category": "Leadership",
+              "impactMetricAdded": true
+            },
+            {
+              "id": "rw-4",
+              "original": "Built reusable frontend components using React and styled-components.",
+              "improved": "Developed a modular React component library adopted by 3 cross-functional teams, accelerating frontend feature delivery by 35%.",
+              "reason": "Demonstrates architectural scope and cross-team developer velocity improvements instead of basic coding duties.",
+              "category": "Efficiency",
+              "impactMetricAdded": true
+            },
+            {
+              "id": "rw-5",
+              "original": "Assisted in migrating legacy monolithic backend to modern microservices.",
+              "improved": "Decoupled 5 monolithic backend services into Node.js microservices, cutting deployment cycle times from days to hours.",
+              "reason": "Replaces 'Assisted in' with decisive action verbs and articulates architectural impact and business velocity.",
+              "category": "Technical Performance",
+              "impactMetricAdded": true
+            },
+            {
+              "id": "rw-6",
+              "original": "Integrated third-party payment APIs including Stripe and PayPal.",
+              "improved": "Architected secure checkout workflows integrating Stripe and PayPal APIs, processing over $1.2M in annual transactional volume.",
+              "reason": "Elevates standard API integration to high-value financial impact with concrete transaction volumes.",
+              "category": "Technical Performance",
+              "impactMetricAdded": true
+            }
+          ],
+          "keywords": {
+            "present": [
+              "TypeScript",
+              "React",
+              "Node.js",
+              "AWS",
+              "PostgreSQL",
+              "Docker",
+              "Next.js",
+              "Express",
+              "Git",
+              "MongoDB",
+              "Jest"
+            ],
+            "missing": [
+              "CI/CD",
+              "Continuous Integration",
+              "Microservices",
+              "Terraform",
+              "Kubernetes",
+              "GraphQL",
+              "System Architecture",
+              "CloudFormation",
+              "Monitoring (Datadog/CloudWatch)"
+            ]
+          },
+          "metrics": {
+            "wordCount": 219,
+            "bulletPointsCount": 9,
+            "actionVerbScore": 68,
+            "readabilityGrade": "High School (Clean ATS)"
+          },
+          "targetRoleMatch": {
+            "roleTitle": "Senior Full Stack Engineer",
+            "matchScore": 76,
+            "keyMissingRequirements": ["CI/CD Pipelines", "Automated Testing", "Infrastructure as Code"],
+            "recommendations": ["Highlight automated deployment pipelines", "Detail scalable cloud architecture metrics"]
+          }
+        },
+        "createdAt": "2026-11-01T13:02:18.673Z"
+      }
+    ],
+    "createdAt": "2026-10-30T13:01:40.283Z",
+    "updatedAt": "2026-11-01T13:02:18.673Z"
+  }
+]
